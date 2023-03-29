@@ -223,6 +223,25 @@ body {
     padding:10px;
 }
 
+.activites_cards{
+
+    display: flex;
+    flex-direction:row;
+    gap:20px;
+}
+
+.footer_{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    background-color: white;
+
+}
+
+
+
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
