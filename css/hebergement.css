@@ -1,0 +1,91 @@
+/* style geberale */
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img {
+    object-fit: cover;   
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+.neutralStar {
+    color: var(--main-bg-color)
+}
+
+/****** Hebergements And Populaires ***********/
+.hebergements-and-populaires {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements-and-populaires section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/****** Hebergements ***********/
+.hebergements {
+    width: 65%;
+}
+
+/* .hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.hebergements_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.hebergements_cards .card {
+    width:27%;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 33px;
+}
+
+.hebergements_cards img {    
+    height: 134px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.hebergements_cards .card-content {
+    
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements_cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements_cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements_cards .card-rating {
+    margin-bottom: 5px;
+}
+
+
+

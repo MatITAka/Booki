@@ -1,0 +1,34 @@
+header{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+header ul{
+    list-style: none;
+    display:flex;
+    
+ }
+
+ header ul li{
+    padding: 20px;
+ }
+
+ header ul li:hover{    
+    border-top: 2px solid  var(--main-color);
+ }
+
+ header li:hover a{
+    color:var(--main-color);
+ }
+
+ header a{
+    color:#000;
+    text-decoration: none;
+    
+ }
+
+ header img{
+    width: 60px;
+}
