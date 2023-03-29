@@ -181,60 +181,49 @@ body {
     padding:10px;
 }
 
+
+.activites_flex{
+
+    margin-top: 100px;
+    margin-bottom:100px;
+
+
+
+}
+
+
+
 .activites_cards{
 
-    display: flex;
-    flex-direction:row;
-    gap:20px;
+    display:flex;
+    gap:30px;
+    margin-top: 40px;
+    
+    
+    
 }
 
 .activites_cards img{
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 275px;  
 
-    object-fit:cover;
+}
+.activites_cards .card{
 
+    width:40%;
+    padding: 0px;
+}
+
+.activites_cards .card-content{
+
+    padding-left: 15px;
 }
 
 
- .port_marseille{
 
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    
-
- }
-
- .fort_pomegues{
-
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    
- }
-
- .calanques_{
-
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    
-
- }
-
- .notre_dame{
-
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    
- }
 
  
-
-
 
 

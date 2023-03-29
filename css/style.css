@@ -5,29 +5,6 @@
 @import "footer.css";
 
 
-.sous-header{
-    display:none;
-}
-
-.geolocalisation{
-    display:none;
-}
-
-.Filtres{
-    display:none;
-}
-
-/* .hebergements-and-populaires{
-    display:none;
-} */
-
-.activites_flex{
-    display:none;
-}
-
-footer{display:none;}
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/

@@ -1,4 +1,3 @@
-/* style geberale */
 .card {
     background-color: white;
     border-radius: 20px;
@@ -7,7 +6,8 @@
 }
 
 .card img {
-    object-fit: cover;   
+    object-fit: cover;
+    
 }
 
 .card-title {
@@ -52,17 +52,18 @@
 
 }
 .hebergements_cards .card {
-    width:27%;
+    width:30%;
     display: flex;
     flex-direction: column;
     
     margin-top: 33px;
+    
 }
 
 .hebergements_cards img {    
     height: 134px;
     border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .hebergements_cards .card-content {
@@ -85,7 +86,12 @@
 
 .hebergements_cards .card-rating {
     margin-bottom: 5px;
+    margin-left: 15px;
 }
 
+.hebergements_cards .card-content{
+
+    flex-wrap: nowrap;
+}
 
 
