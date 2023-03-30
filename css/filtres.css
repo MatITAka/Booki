@@ -27,8 +27,8 @@
     border-radius: 100px;
     border-width: 1px;
     padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-color:#d9d9d9;
     border-style:solid;
     background-color: white;
@@ -80,3 +80,8 @@
 }
 
 
+.button_message{
+    padding-left: 10px;
+    font-weight: 700;
+    font-family: 'raleway';
+}
