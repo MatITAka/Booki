@@ -1,0 +1,74 @@
+.button-filtres :hover{
+
+    background-color:#DEEBFF;
+    opacity: 90%;
+    
+   
+}
+
+.button-filtres{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    
+ 
+}
+
+.Filtres{
+    display: flex; 
+    justify-content:flex-start;
+    gap:20px;
+    flex-direction: row;
+    margin-top: 20px;
+   
+   
+    
+}
+
+.economique-button{
+
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+
+
+}
+
+.family-button{
+
+    border-radius:100px;
+    border-width: 1px;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    
+
+}
+
+.romantique-button{
+
+    border-radius:100px;
+    border-width:1px;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+.pepites-button{
+
+    border-radius:100px;
+    border-width:1px;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}

@@ -40,11 +40,11 @@
     width: 65%;
 }
 
-/* .hebergements-title {
+.hebergements-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+}
 .hebergements_cards{
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +55,6 @@
     width:30%;
     display: flex;
     flex-direction: column;
-    
     margin-top: 33px;
     
 }

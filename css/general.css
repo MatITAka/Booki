@@ -32,194 +32,27 @@ body {
 
 
 /****** Populaires ***********/
-.populaires {
-    width: 32%;
-}
 
-.populaires-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.populaires-cards .card {
-    display: flex;
-    margin-top: 33px;
-}
-
-.populaires-cards img {
-    width: 33%;
-    height: 134px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.populaires-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
-
-.populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
-}
-
-.populaires-cards .card-subtitle {
-    margin: 0;
-}
-
-.populaires-cards .card-rating {
-    margin-bottom: 5px;
-}
-
-
-
-
-.nav-link{
-    display: flex;
-    justify-content: flex-end;
-    gap:50px;
-    align-items: flex-start;
-    
-}
 
 .sous-header{
 
-   margin-top: 80px;
+   margin-top: 40px;
 
 }
 
+.sous-header p{
 
-
-.geolocalisation{
-
-    display: flex;
-}
-
-.geolocation-button{
-
-    border: solid;
-    border-width: 1px;
-    background-color: lightgray;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding: 10px;
+    margin-top:-10px;
 
 }
 
-.search-domain{
+.phrase_sous_localisation{
 
-    padding: 10px;
-
-
-}
-
-.search-button{
-    background-color: blue;
-    padding:10px;
-    color:white;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-
-}
-
-
-.button-filtres :hover{
-
-    background-color: #0065FC;
-    
-   
-}
-
-.button-filtres{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.Filtres{
-    display: flex; 
-    justify-content:flex-start;
-    gap:20px;
-    flex-direction: row;
+    font-style: italic;
     
 }
 
-.economique-button{
 
-    border-radius: 100px;
-    border-width: 1px;
-    border-color: lightgrey;
-    padding: 10px;
-    font-weight: 150px;
-
-
-}
-
-.family-button{
-
-    border-radius:100px;
-    border-width: 1px;
-    padding:10px;
-}
-
-.romantique-button{
-
-    border-radius:100px;
-    border-width:1px;
-    padding:10px;
-}
-
-.pepites-button{
-
-    border-radius:100px;
-    border-width:1px;
-    padding:10px;
-}
-
-
-.activites_flex{
-
-    margin-top: 100px;
-    margin-bottom:100px;
-
-
-
-}
-
-
-
-.activites_cards{
-
-    display:flex;
-    gap:30px;
-    margin-top: 40px;
-    
-    
-    
-}
-
-.activites_cards img{
-    height: 450px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 275px;  
-
-}
-.activites_cards .card{
-
-    width:40%;
-    padding: 0px;
-}
-
-.activites_cards .card-content{
-
-    padding-left: 15px;
-}
 
 
 

@@ -1,8 +1,11 @@
 @import "general.css";
 @import "header.css";
 @import "hebergement.css";
-
 @import "footer.css";
+@import "geolocalisation.css";
+@import "filtres.css";
+@import "activites.css";
+@import "populaire.css";
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

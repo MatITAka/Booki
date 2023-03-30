@@ -1,0 +1,41 @@
+.activites_flex{
+
+    margin-top: 100px;
+    margin-bottom:100px;
+
+
+
+}
+
+
+
+.activites_cards{
+
+    display:flex;
+    gap:30px;
+    margin-top: 40px;    
+}
+
+.activites_cards img{
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 275px;  
+
+}
+.activites_cards .card{
+
+    width:40%;
+    padding: 0px;
+}
+
+.activites_cards .card-content{
+
+    padding-left: 15px;
+    
+}
+
+.activites_cards .card-content p{
+
+    font-weight: 700px;
+}

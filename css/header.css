@@ -32,3 +32,11 @@ header ul{
  header img{
     width: 60px;
 }
+
+.nav-link{
+   display: flex;
+   justify-content: flex-end;
+   gap:50px;
+   align-items: flex-start;
+   
+}
