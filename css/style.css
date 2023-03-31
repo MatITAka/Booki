@@ -48,14 +48,33 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
    
-    .sous-header{
-        padding-left: 150px;
-        font-size: smaller;
+    header img{
+
+      width: 80px;
+      padding-left:200px;
+       
+        
+
     }
 
-    .geolocalisation{
+    .nav-link{
 
-        margin-left: 150px;
+        padding-top: 100px;
+        justify-content: flex-start;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
