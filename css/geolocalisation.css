@@ -7,6 +7,7 @@
     
 }
 
+
 .geolocation-button{
 
     border: solid;
@@ -23,22 +24,27 @@
 
 .search-domain{
 
-    padding: 10px;
-    border: solid;
-    border-color: white;
+    padding: 15px;
+    border: 1px solid var(--main-bg-color);    
     opacity: 200%;
+
 
 }
 
 .search-button{
     background-color:var(--main-color);
-    padding:10px;
+    padding:13px;
     color:var(--main-bg-color);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: solid;
     border-color: var(--main-color);
     font-weight: 700;
+    margin-left: -10px;
 
+}
+
+.search-icon{
+    display: none;
 }
 

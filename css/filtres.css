@@ -18,12 +18,12 @@
     display: flex; 
     justify-content:flex-start;
     gap:20px;
-    flex-direction: row;
+    /* flex-direction: row; */
     margin-top: 20px; 
    
 }
 
-.economique-button{
+.button-filtre{
 
     border-radius: 100px;
     border-width: 1px;
@@ -35,50 +35,8 @@
     background-color: white;
 }
 
-.family-button{
 
-    border-radius:100px;
-    border-width: 1px;
-    padding:10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-color: #d9d9d9;
-    border-style:solid;
-    background-color: white;
-    
-    
-    
-    
 
-}
-
-.romantique-button{
-
-    border-radius:100px;
-    border-width:1px;
-    padding:10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-color: #d9d9d9;
-    border-style: solid;
-    background-color: white;
-    
-    
-}
-
-.pepites-button{
-
-    border-radius:100px;
-    border-width:1px;
-    padding:10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-color:#d9d9d9;
-    border-style:solid;
-    background-color: white;
-    
-    
-}
 
 
 .button_message{

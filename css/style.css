@@ -43,31 +43,97 @@
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .Filtres {
+        flex-direction: column;
+        gap:0;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-   
-    header img{
+    .main-container {
+        padding: 0;        
+    }
 
-        display: flex;
+    header{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;            
+    }
+
+    header > * {
+        width:100%;        
+    }
+
+    header span{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .nav-link{          
         justify-content: center;
         align-items: center;
-        
+        padding: 0;
+        gap:0;       
+    }
+
+    .nav-link li{  
+        flex:1;
+        text-align: center;        
+        border:0;
+        border-bottom: 2px solid var(--main-bg-color);        
+    }
+
+    header ul li:hover{    
+        border:0;          
+        border-bottom: 2px solid  var(--main-color);         
+     }
+
+
+     .sous-header , .geolocalisation, .Filtres ,.phrase_sous_localisation{
+      padding: 0 2% ;
+     }
+
+     .geolocalisation{
+        justify-content: center;
+        align-items: center;
+     }
+
+     .search-button{
+        display: none;
+     }
+
+     .search-icon{
+        display: inline-block;
+        text-align: center;
+        padding: 15px;
+        background-color: var(--main-color);
+        width:30px;
+        margin-left: -6px;;
+    }
+
+
+    .geolocalisation form {
+        width:100%;
+    }
+     .search-domain{       
+    
+    width : calc(100% - 100px)
+    }
+    
+
+    .button-filtres{
+        flex-wrap: wrap;
+    }
+    .button-filtres > * {
+        width: 44%;
+        white-space: nowrap;
 
     }
 
-    .nav-link{
-       
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 50px;
-        
-    }
 
-
-    .sous-header{
+    /* .sous-header{
 
         font-size:10px;
        
@@ -90,7 +156,7 @@
     align-items: center;
     padding-top: 50px;
     width: 50px;
-   }
+   }  */
 
 
 

@@ -38,7 +38,7 @@
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
-    display: none;
+    /* display: none; */
 }
 
 .hebergements-title {
