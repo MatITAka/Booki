@@ -50,21 +50,47 @@
    
     header img{
 
-      width: 80px;
-      padding-left:200px;
-       
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
 
     }
 
     .nav-link{
-
-        padding-top: 100px;
-        justify-content: flex-start;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        
     }
 
 
+    .sous-header{
 
+        font-size:10px;
+       
+       
+
+
+    }
+
+    .search-button{
+
+        display: none;
+
+    }
+
+   .button-filtres{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    width: 50px;
+   }
 
 
 

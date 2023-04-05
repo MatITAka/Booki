@@ -5,5 +5,6 @@ footer{
     background-color:#F2F2F2;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     padding: 20px;
+    display: none;
    
 }
