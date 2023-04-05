@@ -2,7 +2,7 @@
 
     margin-top: 100px;
     margin-bottom:100px;
-    display: none;
+    
 
 
 }
@@ -20,7 +20,7 @@
     height: 450px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 275px;  
+    width: 300px;  
 
 }
 .activites_cards .card{
@@ -38,4 +38,10 @@
 .activites_cards .card-content p{
 
     font-weight: 700px;
+}
+
+.activites_cards a{
+
+    text-decoration: none;
+    color: black;
 }
