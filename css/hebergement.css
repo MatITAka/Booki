@@ -39,7 +39,7 @@
 .hebergements {
     width: 64%;
     
-    /* display: none; */
+   
 }
 
 .hebergements-title {
@@ -55,22 +55,20 @@
 
 }
 .hebergements_cards .card {
-    width:31%;
+    width:29%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+    
     margin-top: 30px;
-   
-    
-    
     
     
 }
 
 .hebergements_cards img { 
-    height: 124px;
+    height: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 238px;
 }   
 
 .hebergements_cards .card-content {
@@ -105,5 +103,5 @@
 .hebergements a{
 
     text-decoration: none;
-    color:black;
+    color:black
 }
