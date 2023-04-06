@@ -42,3 +42,9 @@
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+.populaires a{
+
+    color: black;
+    text-decoration: none;
+}

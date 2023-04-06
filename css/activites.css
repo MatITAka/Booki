@@ -33,13 +33,13 @@
     
 }
 
-.activites_cards .card-content p{
-
-    font-weight: 700px;
-}
-
 .activites_cards a{
 
     text-decoration: none;
     color: black;
+}
+
+.activites_cards .card{
+
+    font-weight: 600;
 }
