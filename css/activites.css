@@ -15,7 +15,7 @@
 }
 
 .activites_cards img{
-    height: 400px;
+    height: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;  
@@ -23,7 +23,7 @@
 }
 .activites_cards .card{
 
-    width:40%;
+    width:50%;
     padding: 0px;
 }
 
@@ -41,5 +41,5 @@
 
 .activites_cards .card{
 
-    font-weight: 600;
+   font-size: small;
 }
