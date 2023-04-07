@@ -52,14 +52,15 @@
     .activites_cards img{
 
         width: 100%;
-        height: 60%;
+        height: 80%;
     }
 
     .activites_cards .card{
 
-        height: 80%;
+      height: 320px;
     }
 
+  
     
     
 
@@ -166,6 +167,7 @@
     .hebergements_cards .card{
 
         width: 100%;
+        
 
     }
 
@@ -208,6 +210,7 @@
     .activites_cards .card{
 
         width:95%;
+        height: 200px;
     }
 
 
@@ -220,6 +223,11 @@
         flex-direction: column-reverse;
     }
 
+    .populaires{
+        margin-top: -30px;
+    }
 
-
+    .hebergements{
+        background-color: white;
+    }
 }
