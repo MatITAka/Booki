@@ -44,9 +44,17 @@
 
 }
 
-.search-icon{
+.search-icon{ 
     display: none;
     border-radius: 15px;
     padding: 10px;
-}
+ }   
 
+ .fa-magnifying-glass{
+
+    color:#FFFFFF;
+ }
+
+ .fa-location-dot{
+    color: black;
+ }
