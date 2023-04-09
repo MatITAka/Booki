@@ -205,12 +205,18 @@
 
         flex-direction: column;
         
+        
     }
 
     .activites_cards .card{
 
         width:95%;
         height: 200px;
+    }
+
+    .activites_flex{
+
+        padding-left:20px;
     }
 
 
@@ -227,7 +233,17 @@
         margin-top: -30px;
     }
 
-    .hebergements{
-        background-color: white;
+   .hebergements-and-populaires section {
+        
+       border-radius: 0px;
+       
+        
     }
+
+    .hebergements_media{
+
+        background-color:white;
+    }
+
+    
 }

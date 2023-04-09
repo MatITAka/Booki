@@ -29,7 +29,7 @@
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -38,6 +38,7 @@
 /****** Hebergements ***********/
 .hebergements {
     width: 64%;
+    background-color:var(--main-bg-color);
     
    
 }

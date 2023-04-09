@@ -1,6 +1,7 @@
 .populaires {
     width: 32%;
     /* display: none; */
+    background-color:var(--main-bg-color);
 }
 
 .populaires-title {
