@@ -7,7 +7,6 @@
 @import "activites.css";
 @import "populaire.css";
 
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -32,8 +31,8 @@
         justify-content: space-between;
     }
 
-    .populaires-cards .card {
-        width: 70%;
+    .populaires article{
+        width: 30%;
     }
 
     .populaires-cards .card-title {
@@ -188,8 +187,8 @@
     .populaires-cards img{
 
         
-        width: 111px;
-        height: 146px;
+        width: 40%;
+        
     }
 
     .populaires-cards{
@@ -200,7 +199,7 @@
         
     }
 
-    .populaires-cards .card{
+    .populaires-cards article{
 
         width:100%;
 
@@ -210,7 +209,7 @@
 
         
         width: 100%;
-        height: 141px;
+        
     }
     
     .activites_cards{
