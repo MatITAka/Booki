@@ -33,7 +33,7 @@
     }
 
     .populaires-cards .card {
-        width: 30%;
+        width: 70%;
     }
 
     .populaires-cards .card-title {
@@ -43,6 +43,17 @@
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .populaires-cards img{
+        width: 50%;
+    }
+
+    .populaires-cards a{
+        
+    }
+
+    
+    
 
     .Filtres {
         flex-direction: column;
@@ -148,8 +159,9 @@
         flex-wrap: wrap;
     }
     .button-filtres > * {
-        width: 44%;
+        width: 46%;
         white-space: nowrap;
+        font-size: 11px;
 
     }
 
@@ -245,5 +257,13 @@
         background-color:white;
     }
 
+    .geolocalisation, .Filtres, .phrase_sous_localisation, .sous-header, .activites_flex , footer{
+
+        padding: 0 30px ;
+    }
     
+    .phrase_sous_localisation{
+
+        font-size: 12px;
+    }
 }

@@ -29,7 +29,7 @@
 }
 
 .hebergements-and-populaires section {
-    /* background-color: var(--main-bg-color); */
+    
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -39,8 +39,6 @@
 .hebergements {
     width: 64%;
     background-color:var(--main-bg-color);
-    
-   
 }
 
 .hebergements-title {
@@ -70,6 +68,7 @@
     height: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 100%;
 }   
 
 .hebergements_cards .card-content {

@@ -58,3 +58,14 @@
  .fa-location-dot{
     color: black;
  }
+
+ ::placeholder{
+    color: black;
+    font-weight: bold;
+ }
+
+ ::placeholder{
+    
+ }
+    
+ 
