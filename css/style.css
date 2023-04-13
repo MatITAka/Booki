@@ -47,9 +47,7 @@
         width: 50%;
     }
 
-    .populaires-cards a{
-        
-    }
+    
 
     
     
@@ -263,6 +261,16 @@
     
     .phrase_sous_localisation{
 
-        font-size: 12px;
+        font-size: 10px;
     }
+
+    .i_logo{
+
+        font-size: 12px;
+        padding: 5px 5px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+
 }
